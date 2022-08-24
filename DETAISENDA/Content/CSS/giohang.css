@@ -1,0 +1,176 @@
+/*Trang dat hang*/
+.thanhtoan {
+    border: 1px #CCC solid;
+    padding: 0px 25px 25px;
+    background: rgba(207, 221, 206, 0.8);
+    box-shadow: 
+        0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
+        0px 4px 20px rgba( 0,0,0,0.33 );
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: table;
+    position: static;
+    font-weight: 500;
+    text-align: center;
+}
+.backback {
+    border-radius: 50px;
+}
+.tienhanhtt {
+    background-color: rgb(138, 170, 151);
+    color:#fff;
+    border-radius: 15px;
+    position:relative;
+    padding:10 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+.tienhanhtt:hover{
+    background:#bed4c5;
+    color: #000;
+  }
+.tieudegiohang {
+    background-color: rgb(226, 238, 223);
+    background-color: rgba(207, 221, 206, 0.8);
+    width: auto;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px #CCC solid;
+    text-align: center;
+    display: flex;
+    height: 170px;
+    font-size: 30px;
+    color:#31443680;
+    
+}
+.tongdon-container {
+    width: 50%;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px #CCC solid;
+    padding: 0px 25px 25px;
+    background: rgba(207, 221, 206, 0.8);
+    box-shadow: 
+        0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
+        0px 4px 20px rgba( 0,0,0,0.33 );
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: table;
+    position: static;
+    font-weight: 500;
+    text-align: center;
+}
+.abc {
+    background-color: rgb(138, 170, 151);text-align: center;
+}
+.dathang_sp {
+    width: 40%;
+    align-items: center;
+    justify-content: space-around;
+    border-right: 1px #CCC solid;
+    text-align: center;
+    display: flex;
+}
+.dh_gia {
+    width: 20%;
+    align-items: center;
+    justify-content: space-around;
+    border-right: 1px #CCC solid;
+    text-align: center;
+    display: flex;
+}
+.dh_soluong {
+    width: 21%;
+    align-items: center;
+    justify-content: space-around;
+    border-right: 1px #CCC solid;
+    text-align: center;
+    display: flex;
+}
+.dh_tong {
+    width: 19%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+}
+.nutxoa {
+    background-color: rgba(207, 221, 206, 0.8);
+    color: rgb(58, 155, 71);
+    border-radius: 50%;
+    border: 2px solid rgba(207, 221, 206, 0.8);
+}
+.giamsp {
+    background-color: rgba(207, 221, 206, 0.8);
+    color: rgb(58, 155, 71);
+    border-radius: 50%;
+    border: 2px solid rgba(207, 221, 206, 0.8);
+}
+.tangsp {
+    background-color: rgba(207, 221, 206, 0.8);
+    color: rgb(58, 155, 71);
+    border-radius: 50%;
+    border: 2px solid rgba(207, 221, 206, 0.8);
+}
+.dathang {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 1px solid lightgray;
+    border: 1px #CCC solid;
+    text-align: center;
+}
+.dhgia {
+    width: 20%;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px #CCC solid;
+    text-align: center;
+    display: flex;
+}
+.dhsoluong {
+    width: 20%;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px #CCC solid;
+    text-align: center;
+    display: flex;
+}
+.tongg {
+    width: 20%;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px #CCC solid;
+    text-align: center;
+    display: flex;
+}
+.tongdon {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px #CCC solid;
+    text-align: center;
+}
+.tongdon img {
+    width: 75%;
+    border: 1px #CCC solid;
+    text-align: center;
+}
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: rgb(138, 170, 151);
+}
+.basketTotalTitle {
+    width: 20%;
+}
+.basketTotal {
+    width: 20%;
+}

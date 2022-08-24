@@ -1,0 +1,138 @@
+/* product section */
+.Danhsachmathang .text-light{
+    text-align: center;
+    width: 70%;
+    margin: 0.9rem auto;
+}
+.Cacsp{
+    margin: 2rem;
+    position: relative;
+    border-left: 1px solid white;
+    border-right:1px solid white ;
+    border-top:1px solid white ;
+}
+.Cacsp-content{
+    background: #eef3ea;
+    padding: 0px 0px 0px 0px;
+    border-radius: 0 0 6px 6px;
+}
+img{
+  width: 100%;
+  display: block;
+}
+.Cacsp-img img{
+    width: 220px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;box-shadow: #ddd 0px 1px 1px 1px;
+         padding: 0px 20px 26px 20px;
+}
+.Cacsp-btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    transition: opacity 0.6s ease;
+    opacity: 0;
+}
+.themvaogio{
+    border: 1px solid black;
+    padding: 5px 0;
+    width: 210px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    border-radius: 4px;
+}
+.popup{
+    background: transparent;
+    border: 1px solid black;
+    padding: 5px 0;
+    width: 40px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    border-radius: 4px;
+}
+.popup{
+    background: white;
+    color: black;
+}
+.themvaogio:hover{
+    background: #3a474027;
+}
+.popup:hover{
+    background: #3a474027;
+}
+.Cacsp-info{
+    background: white;
+    padding: 2rem;
+    margin-top: -20px !important;
+}
+.Cacsp-info-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tieude_sp {
+  color:rgb(120, 173, 129);
+  font-size: 15px;
+}
+.Cacsp-name{
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.Cacsp-name:hover {
+  color: green;
+}
+.Cacsp-price{
+    padding-top: 0.6rem;
+    padding-right: 0.6rem;
+    display: inline-block;
+}
+.Cacsp-price:first-of-type{
+  text-decoration: line-through;
+  color: var(--carribean-green);
+}
+.Cacsp-img img{
+    transition: transform 0.6s ease;
+}
+.Cacsp:hover .Cacsp-img img{
+    transform: scale(1.1);
+}
+.Cacsp:hover .Cacsp-img{
+    background: var(--carribean-green);
+}
+.Cacsp:hover .Cacsp-btns{
+    opacity: 1;
+}
+/* Media Queries */
+@media screen and (min-width: 992px){
+    .Cacsp-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Cacsp-col-r-bottom{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 1200px){
+    .Cacsp-items{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .Cacsp{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .Danhsachmathang .text-light{
+        width: 50%;
+    }
+}
